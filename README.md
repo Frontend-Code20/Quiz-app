@@ -15,7 +15,7 @@ This is a single-page quiz app built in custom JavaScript, HTML, and CSS. This c
 
 ## 3. Project Preview
 
-![Default View](https://github.com/Frontend-Code20/Quiz/blob/main/images/defualt.png)
+![Default View](https://github.com/Frontend-Code20/Quiz/blob/main/images/default.png)
 
 ![Select View](https://github.com/Frontend-Code20/Quiz/blob/main/images/select.png)
 
