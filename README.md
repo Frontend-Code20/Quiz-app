@@ -15,12 +15,12 @@ This is a single-page quiz app built in custom JavaScript, HTML, and CSS. This c
 
 ## 3. Project Preview
 
-![Default View]()
+![Default View](https://github.com/Frontend-Code20/Quiz/blob/main/images/defualt.png)
 
-![Select View]()
+![Select View](https://github.com/Frontend-Code20/Quiz/blob/main/images/select.png)
 
-![Anwser View]()
+![Anwser View](https://github.com/Frontend-Code20/Quiz/blob/main/images/answer.png)
 
-![Last View]()
+![Last View](https://github.com/Frontend-Code20/Quiz/blob/main/images/last.png)
 
-![Result View]()
+![Result View](https://github.com/Frontend-Code20/Quiz/blob/main/images/result.png)
