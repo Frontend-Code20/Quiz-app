@@ -76,6 +76,7 @@ export function deselectOption(options) {
     Object.values(options).forEach((option) => {
         option.style.backgroundColor = 'aliceblue';
         option.style.outline = 'none';
+        option.style.color = '#000';
     })
 };
 
@@ -116,10 +117,13 @@ export function showAnswer(options, anwser, selectedAns) {
 
     if (result) {
         options[anwser - 1].style.backgroundColor = "green";
+        options[anwser - 1].style.color = "#fff";
         return true;
     } else {
         options[anwser - 1].style.backgroundColor = "green";
+        options[anwser - 1].style.color = "#fff";
         options[selectedAns - 1].style.backgroundColor = "red";
+        options[selectedAns - 1].style.color = "#fff";
         return false;
     }
 }

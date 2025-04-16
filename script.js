@@ -53,7 +53,6 @@ function setupInitialQuestion() {
     const question1 = getQuestion(0);
     correctAns = question1?.answer;
     setQuestion(options, question, question1);
-    console.log(question1);
 }
 
 function setupTotalQuestions() {
@@ -119,6 +118,7 @@ function loadNextQuestion() {
     deselectOption(options);
     const questionInfo = getQuestion(nextQuestion);
     setQuestion(options, question, questionInfo);
+    correctAns = questionInfo?.answer
     nextQuestion++;
     button.innerHTML = "Select Option";
     button.disabled = true;
@@ -128,7 +128,6 @@ function loadNextQuestion() {
 function resetTimer() {
     timeLeft = 30;
     timerElement.innerHTML = 30;
-    timer = setInterval(handleTimer, 1000);
 }
 function handleTimer() {
     // Handle countdown logic for the timer
